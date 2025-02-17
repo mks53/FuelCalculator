@@ -1,28 +1,36 @@
 {
   "expo": {
-    "name": "FuelCalculator",
-    "slug": "FuelCalculator",
+    "name": "Fuel Calculator",
+    "slug": "fuelcalculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/fuel-station.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mksherwala.fuelcalculator"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mksherwala.fuelcalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6ae2cb9f-080f-4c06-a803-ed220f9b1a4c"
+      }
+    },
+    "owner": "mksherwala"
   }
 }
